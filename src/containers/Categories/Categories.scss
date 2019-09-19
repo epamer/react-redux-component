@@ -1,0 +1,44 @@
+@import "../../assets/font-awesome-4.7.0/css/font-awesome.min.css";
+
+.categories {
+  background-color: var(--categories-bgc);
+  &__body {
+    height: 344px;
+    padding: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  &__list {
+    columns: 2;
+    width: 100%;
+    padding: 0.25rem;
+  }
+  &__item {
+    display: list-item;
+    white-space: nowrap;
+    position: relative;
+    list-style: none;
+    padding: 0.25rem;
+    text-align: left;
+    break-inside: avoid;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--categories-bgc-dark);
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .categories__list {
+    columns: 3;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .categories__list {
+    columns: 4;
+  }
+}

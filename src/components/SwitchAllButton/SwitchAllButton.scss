@@ -1,0 +1,33 @@
+.switch-all-btn {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.5rem 1em;
+  font-size: 0.95em;
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    border-color: var(--btn-border-hover);
+  }
+  &__icon {
+    &:before {
+      position: relative;
+      left: -0.25rem;
+      padding: 0.25em;
+      font-size: 1.25em;
+    }
+    &--allow {
+      color: var(--allow);
+    }
+    &--block {
+      color: var(--block);
+    }
+  }
+  &:disabled {
+    border-color: var(--btn-border);
+    cursor: default;
+    background-color: var(--sea);
+    color: var(--btn-active-color);
+  }
+}

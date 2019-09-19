@@ -1,0 +1,17 @@
+.switch-view-btn {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.25rem 1em;
+  font-size: 0.95em;
+  background-color: var(--btn-bg);
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  border-radius: 20px;
+  & b {
+    padding: 0 0.25em;
+  }
+  &--active {
+    background-color: var(--btn-active);
+    color: var(--btn-active-color);
+  }
+}

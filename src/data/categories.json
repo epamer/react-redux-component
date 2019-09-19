@@ -1,0 +1,136 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "allowed": true,
+      "name": "Test",
+      "description": "Test Category for Web Filter"
+    },
+    {
+      "id": 1,
+      "allowed": true,
+      "name": "Crime",
+      "description": "Criminal Activity"
+    },
+    {
+      "id": 2,
+      "allowed": false,
+      "name": "Self-Harm",
+      "description": "Self-Harm"
+    },
+    {
+      "id": 3,
+      "allowed": true,
+      "name": "Child Abuse",
+      "description": "Child Abuse Images"
+    },
+    {
+      "id": 4,
+      "allowed": true,
+      "name": "Adult content",
+      "description": "Adult content"
+    },
+    {
+      "id": 5,
+      "allowed": true,
+      "name": "Cults",
+      "description": "Cults"
+    },
+    {
+      "id": 6,
+      "allowed": true,
+      "name": "Nudity",
+      "description": "Nudity"
+    },
+    {
+      "id": 7,
+      "allowed": true,
+      "name": "Lingerie",
+      "description": "Lingerie & Swimsuits"
+    },
+    {
+      "id": 8,
+      "allowed": true,
+      "name": "Tasteless",
+      "description": "Tasteless"
+    },
+    {
+      "id": 9,
+      "allowed": true,
+      "name": "Hacking",
+      "description": "Sites that promote hacking"
+    },
+    {
+      "id": 10,
+      "allowed": false,
+      "name": "Cheating",
+      "description": "School Cheating"
+    },
+    {
+      "id": 11,
+      "allowed": true,
+      "name": "Anonymizer",
+      "description": "Anonymizers"
+    },
+    {
+      "id": 12,
+      "allowed": false,
+      "name": "Translators",
+      "description": "Translators"
+    },
+    {
+      "id": 13,
+      "allowed": true,
+      "name": "Dating",
+      "description": "Dating sites"
+    },
+    {
+      "id": 14,
+      "allowed": true,
+      "name": "Illegal drugs",
+      "description": "Illegal drugs"
+    },
+    {
+      "id": 15,
+      "allowed": true,
+      "name": "Alcohol and Tobacco",
+      "description": "Alcohol and Tobacco"
+    },
+    {
+      "id": 16,
+      "allowed": true,
+      "name": "Software",
+      "description": "Download Sites"
+    },
+    {
+      "id": 17,
+      "allowed": false,
+      "name": "Peer-to-Peer",
+      "description": "Peer-to-Peer"
+    },
+    {
+      "id": 18,
+      "allowed": true,
+      "name": "Illegal software",
+      "description": "Illegal software"
+    },
+    {
+      "id": 19,
+      "allowed": true,
+      "name": "Gambling",
+      "description": "Gambling sites"
+    },
+    {
+      "id": 20,
+      "allowed": false,
+      "name": "Shopping",
+      "description": "Online shopping and auction sites"
+    },
+    {
+      "id": 21,
+      "allowed": true,
+      "name": "Advertisement",
+      "description": "Advertisement networks and sites"
+    }
+  ]
+}

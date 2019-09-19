@@ -1,0 +1,35 @@
+.category {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 5px;
+  &__status {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.25em;
+    height: 2.25em;
+    border: 2px solid var(--category-border);
+    border-radius: 5px;
+    padding: 0.5em;
+    color: var(--category-allow);
+    background-color: var(--category-status-bgc);
+    &--blocked {
+      @extend .category__status;
+      color: var(--category-blocked);
+    }
+  }
+  &__text {
+    padding: 0.5em;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  &__info {
+    position: relative;
+    padding: 0.5em;
+    color: var(--category-i-color);
+    vertical-align: middle;
+  }
+  &:hover {
+    background-color: var(--category-hover-bgc);
+    cursor: pointer;
+  }
+}

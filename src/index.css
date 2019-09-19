@@ -1,0 +1,50 @@
+@import "assets/fonts/fonts.css";
+
+:root {
+  --btn-border: #fff;
+  --btn-border-hover: #000;
+  --btn-bg: #fff;
+  --btn-active: #02a2d8;
+  --btn-active-color: #fff;
+  --orange: #ffa40a;
+  --sea: #007796;
+  --font: #212121;
+
+  --categories-bgc: #f9fafa;
+  --categories-bgc-dark: #eceeef;
+
+  --category-blocked: #e02f1e;
+  --category-allow: #33c67c;
+  --category-border: #d3dce1;
+  --category-hover-bgc: #d3dce1;
+  --category-i-color: #a5aeb2;
+  --category-status-bgc: #fff;
+
+  --tooltip-bgc: #fff;
+  --tooltip-border: #d3dce1;
+  --tooltip-color: #65666a;
+
+  --block: #e02f1e;
+  --allow: #33c67c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: var(--font);
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
